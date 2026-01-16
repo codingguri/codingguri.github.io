@@ -1,1 +1,3 @@
-# codingguri.github.io
+# 포트폴리오 데모
+
+앞으로 계속 채워나갈 예정 
