@@ -1,0 +1,139 @@
+/* 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pretendard", "Arial", sans-serif;
+}
+
+body {
+    background-color: #f9fbf9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 상단 헤더 */
+.hero-section {
+    background: linear-gradient(135deg, #a2ffc6 0%, #76dd93 100%);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+/* 중앙 프로필 */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -85px;
+    margin-bottom: 40px;
+}
+
+.profile-circle {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.profile-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.profile-info h2 {
+    font-size: 1.5rem;
+    color: #2d5a27;
+}
+
+.profile-info p {
+    color: #666;
+    margin-top: 5px;
+}
+
+/* 카드 섹션 */
+.content-wrapper {
+    max-width: 900px;
+    margin: 0 auto 80px auto;
+    padding: 0 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 뱃지 스타일 */
+.badge {
+    background-color: #2d5a27;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    z-index: 2;
+    margin-bottom: -20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 카드 내부 본문 */
+.card-body {
+    width: 100%;
+    padding: 50px 30px 30px 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eee;
+    min-height: 200px;
+}
+
+.card-body ul {
+    list-style: none;
+    text-align: center;
+}
+
+.card-body ul li {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #444;
+}
+
+.status-tag {
+    font-size: 0.8rem;
+    background: #eafff0;
+    color: #2ecc71;
+    padding: 2px 8px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
